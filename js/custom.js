@@ -55,12 +55,6 @@ function calculate() {
 
 };
 
-// Display Empty Chart On Initial Page 
-window.onload = function defaultGraph() {
-    document.getElementById("chart").innerHTML = `<br><br><br><br><br><br><br><br><br><br><br><br><br>`;
-}
-
-
 // On-Click Button Event
 document.getElementById('calc').addEventListener('click', function () {
 
